@@ -1,0 +1,21 @@
+
+int LDR = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  LDR = analogRead(A0);
+  Serial.println(LDR);
+  if (LDR < 500) {
+    digitalWrite(10, HIGH);
+  } else {
+    digitalWrite(10, LOW);
+  }
+  delay(10); 
+}
