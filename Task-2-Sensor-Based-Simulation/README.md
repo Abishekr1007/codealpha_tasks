@@ -1,25 +1,36 @@
-# Task 2 – Sensor-Based Simulation
+# Task 2 – Sensor-Based IoT Simulation
 
-## Project Description
+This project is part of my **CodeAlpha IoT Internship**.
 
-This project demonstrates an automatic street light system using Arduino and an LDR sensor.
+### 📌 Topic
 
-## Tools Used
+**Sensor-Based Simulation using Arduino**
 
-* Arduino
+This project demonstrates an automatic street light system using an **LDR sensor and Arduino**, where the LED is automatically controlled based on the surrounding light intensity.
+
+### 🔧 Components & Tools
+
+* Arduino Uno
 * LDR Sensor
 * LED
+* Resistor
 * Tinkercad
 * Arduino IDE
 
-## Working
+### 🎯 Objective
 
-The LDR sensor detects the surrounding light intensity. When the environment becomes dark, the Arduino automatically turns ON the LED. When sufficient light is available, the LED remains OFF.
+To design and simulate a sensor-based IoT system that detects environmental conditions and automatically controls an output device.
 
-## Simulation Screenshot
+### ⚙️ Working
 
-The screenshot of the working simulation is included in this repository.
+The LDR sensor detects the surrounding light intensity. When the environment becomes dark, the Arduino turns **ON** the LED automatically. When sufficient light is available, the LED remains **OFF**.
 
-## Demo Video
+### 📸 Simulation Screenshot
 
-A demonstration video of the project is included in this repository.
+The working simulation screenshot is included in this repository.
+
+### 🎥 Demo Video
+
+The demonstration video of the sensor-based simulation is included in this repository.
+
+**Status:** ✅ Completed
